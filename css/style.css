@@ -1,0 +1,41 @@
+.sprite {
+    background: url("../images/houses.png") no-repeat ;
+}
+
+.engineers{
+    width: 500px ;
+    height: 500px;
+    display: inline-block;
+    background-position: 0px 0px;
+}
+
+.shadows{
+    width: 500px ;
+    height: 500px ;
+    display: inline-block;
+    background-position: -500px 50px;
+}
+
+.hipsters{
+    width: 500px ;
+    height: 500px ;
+    display: inline-block;
+    background-position: 0px -500px;
+}
+
+.speedsters{
+    width: 500px ;
+    height: 500px ;
+    display: inline-block;
+    background-position: -500px -500px;
+}
+
+a[href="https://shkolladigjitale.com/"]{
+    color: red;
+}
+ 
+p[class*="ds"]{
+    background: rgb(43, 43, 211);
+    color: white;
+    padding: 20px;
+}
